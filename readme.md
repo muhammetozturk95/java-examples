@@ -1,5 +1,103 @@
 # Java Examples
 
+## Sınıf Geçme - Sınıfta Kalma
+
+Girilen derslerin notlarına göre ortalama hesaplayıp kullanıcının sınıfı geçip geçmediğini denetleyen programdır.
+
+### Örnek1
+
+Matematik notu: 45
+
+Fizik notu: 38
+
+Kimya notu: 98
+
+Türkçe notu: 100
+
+Müzik notu: 78
+
+Sınıfı geçtiniz! Ortalamanız: 71.0
+
+### Örnek2
+
+Matematik notu: 12
+
+Fizik notu: 34
+
+Kimya notu: 34
+
+Türkçe notu: 23
+
+Müzik notu: 41
+
+Sınıfta kaldınız! Ortalamanız: 28.0
+
+### Örnek3
+
+Matematik notu: 120
+
+Fizik notu: -43
+
+Kimya notu: 21
+
+Türkçe notu: 21
+
+Müzik notu: 21
+
+Sınıfta kaldınız! Ortalamanız: 12.0
+
+## Kullanıcı Adı ve Şifre Doğruluğunu Denetleyen Program
+
+Bu program girilen kullanıcı adı ve şifre doğruluğuna göre giriş yapılıp yapılmadığı uyarısını verir. Eğer şifre yanlış girildiyse isteğe bağlı olarak şifre sıfırlaması yapar.
+
+### Örnek1
+
+Input your username: java
+
+Input your password: script
+
+You are logged in!
+
+### Örnek2
+
+Input your username: java
+
+Input your password: 123
+
+Your password is wrong. Do you want to reset your password? yes/no
+
+**yes**
+
+Create new password
+
+**best**
+
+Your password has been changed successfully!
+
+### Örnek3
+
+Input your username: java
+
+Input your password: 456
+
+Your password is wrong. Do you want to reset your password? yes/no
+
+**yes**
+
+Create new password
+
+**script**
+
+Your password cannot be the same old password!
+
+### Örnek4
+
+Input your username: ruby
+
+Input your password: on rails
+
+Wrong username or password!
+
 ## Calculator
 
 This program is a calculator application coded in java.
@@ -197,55 +295,3 @@ KDV tutari: 160.0
 
 Toplam tutar: 2160.0 TL
 
-## Kullanıcı Adı ve Şifre Doğruluğunu Denetleyen Program
-
-Bu program girilen kullanıcı adı ve şifre doğruluğuna göre giriş yapılıp yapılmadığı uyarısını verir. Eğer şifre yanlış girildiyse isteğe bağlı olarak şifre sıfırlaması yapar.
-
-### Örnek1
-
-
-Input your username: java
-
-Input your password: script
-
-You are logged in!
-
-### Örnek2
-
-Input your username: java
-
-Input your password: 123
-
-Your password is wrong. Do you want to reset your password? yes/no
-
-**yes**
-
-Create new password
-
-**best**
-
-Your password has been changed successfully!
-
-### Örnek3
-
-Input your username: java
-
-Input your password: 456
-
-Your password is wrong. Do you want to reset your password? yes/no
-
-**yes**
-
-Create new password
-
-**script**
-
-Your password cannot be the same old password!
-
-### Örnek4
-
-Input your username: ruby
-
-Input your password: on rails
-
-Wrong username or password!
